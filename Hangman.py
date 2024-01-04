@@ -122,7 +122,7 @@ def display_hangman(tries):
                    |      O
                    |     \\|/
                    |      |
-                   |     / 
+                   |     /
                    -
                 ''',
                 # голова, торс, обе руки
@@ -132,7 +132,7 @@ def display_hangman(tries):
                    |      O
                    |     \\|/
                    |      |
-                   |      
+                   |
                    -
                 ''',
                 # голова, торс и одна рука
@@ -142,7 +142,7 @@ def display_hangman(tries):
                    |      O
                    |     \\|
                    |      |
-                   |     
+                   |
                    -
                 ''',
                 # голова и торс
@@ -152,7 +152,7 @@ def display_hangman(tries):
                    |      O
                    |      |
                    |      |
-                   |     
+                   |
                    -
                 ''',
                 # голова
@@ -160,19 +160,19 @@ def display_hangman(tries):
                    --------
                    |      |
                    |      O
-                   |    
-                   |      
-                   |     
+                   |
+                   |
+                   |
                    -
                 ''',
                 # начальное состояние
                 '''
                    --------
                    |      |
-                   |      
-                   |    
-                   |      
-                   |     
+                   |
+                   |
+                   |
+                   |
                    -
                 '''
     ]
@@ -270,6 +270,7 @@ def play():
 
 АБВ = [chr(i) for i in range(ord('а'), ord('а') + 32)] + [chr(i)
                                                           for i in range(ord('А'), ord('А') + 32)]
+
 
 find_text = get_word()
 print(find_text)
