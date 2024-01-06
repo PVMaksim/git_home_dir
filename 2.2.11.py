@@ -11,7 +11,6 @@ def del_char(text, char):  # удаление символа в тексте
     return text
 
 
-cnt2 = 1
 print(' '.join(txt), alfabet[cnt])
 while True:
     cnt += 1
@@ -20,7 +19,6 @@ while True:
         new_txt += ' '  # пробел между словами
     txt, new_txt = new_txt.split(), ''
     if alfabet[cnt] in ''.join(txt):
-        cnt2 += 1
-        print(' '.join(txt), alfabet[cnt], cnt2)
+        print(' '.join(txt), alfabet[cnt])
     if len(txt) <= 1:
         break
