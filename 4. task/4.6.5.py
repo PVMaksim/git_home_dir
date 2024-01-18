@@ -3,12 +3,6 @@ n = 5
 m = 7
 matrix = []
 
-for i in range(n):
-    tamp = []
-    for j in range(1, m+1):
-        tamp.append(j)
-    matrix.append(tamp)
-
 
 for i in range(n):
     for j in range(m):
